@@ -1,7 +1,9 @@
 import React from "react";
 import MethodCard from "./MethodCard";
 
-const MethodList = ({ methods }) => {
+import methods from "../../data/methodData";
+
+const MethodList = () => {
   return (
     <section id="method" className="scroll-mt-16">
       <div className="animate-fadeIn mx-auto max-w-5xl p-7">

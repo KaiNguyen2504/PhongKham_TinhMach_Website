@@ -9,16 +9,13 @@ import Footer from "./components/footer/Footer";
 import BackToTopBtn from "./components/button/BackToTopBtn";
 import SpeedDial from "./components/button/SpeedDial";
 
-import methods from "./data/methodData";
-import symptoms from "./data/symptomData";
-
 function App() {
   return (
     <div className="relative">
       <Navbar />
       <Hero />
-      <SignsList symptoms={symptoms} />
-      <MethodList methods={methods} />
+      <SignsList />
+      <MethodList />
       <Process />
       <About />
       <Review />

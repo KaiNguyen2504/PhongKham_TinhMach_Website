@@ -1,6 +1,7 @@
 import SignCard from "./SignCard";
+import symptoms from "../../data/symptomData";
 
-const SignsList = ({ symptoms }) => {
+const SignsList = () => {
   return (
     <section id="sign" className="scroll-mt-16">
       <div className="mx-auto max-w-5xl p-7">
