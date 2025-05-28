@@ -13,7 +13,9 @@ const MethodList = () => {
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
           {methods.map((method, index) => (
-            <div
+            <divnpm
+              i
+              gh-pages
               key={index}
               className={`${
                 methods.length === 3 && index === 2
@@ -22,7 +24,7 @@ const MethodList = () => {
               }`}
             >
               <MethodCard method={method} />
-            </div>
+            </divnpm>
           ))}
         </div>
       </div>
